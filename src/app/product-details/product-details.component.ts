@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product, products } from '../products';
+import { Pipe, PipeTransform } from '@angular/core';
 
 @Component({
   selector: 'app-product-details',
